@@ -3,7 +3,7 @@
 import { Box, Title, Text, Button, Flex } from '@mantine/core';
 
 export default function Hero() {
-  const phone = '919463182321';
+  const phone = '919896668880';
 
   const handleWhatsApp = () => {
     window.open(`https://wa.me/${phone}`, '_blank');

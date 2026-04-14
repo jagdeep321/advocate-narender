@@ -25,7 +25,7 @@ import {
 import { useState } from 'react';
 
 export default function Contact() {
-  const phone = '919463182321';
+  const phone = '919896668880';
 
   const [form, setForm] = useState({
     name: '',
@@ -40,11 +40,11 @@ export default function Contact() {
   };
 
   const handleCall = () => {
-    window.open(`tel:9463182321`);
+    window.open(`tel:9896668880`);
   };
 
   const openWhatsApp = () => {
-  window.open('https://wa.me/919463182321', '_blank');
+  window.open('https://wa.me/919896668880', '_blank');
 };
 
 const openFacebook = () => {
@@ -132,7 +132,7 @@ const openFacebook = () => {
 <Flex align="center" gap={12} mb={10}>
   <IconPhone size={20} color="#c9a14a" />
   <Text style={{ color: '#ffffff', fontSize: 16, fontWeight: 500 }}>
-    +91 9463182321
+    +91 9896668880
   </Text>
 </Flex>
 

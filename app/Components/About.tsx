@@ -14,7 +14,7 @@ import {
 import { IconBriefcase, IconGavel, IconUsers, IconScale } from '@tabler/icons-react';
 
 export default function About() {
-  const phone = '9463182321';
+  const phone = '9896668880';
 
   const handleCall = () => {
     window.open(`tel:${phone}`);

@@ -19,7 +19,7 @@ import {
 
 export default function Footer() {
   const openWhatsApp = () => {
-    window.open('https://wa.me/919463182321', '_blank');
+    window.open('https://wa.me/919896668880', '_blank');
   };
 
   const openFacebook = () => {
@@ -98,7 +98,7 @@ export default function Footer() {
               
               <Flex gap={10}>
                 <IconPhone size={18} color="#c9a14a" />
-                <Text style={{ color: '#ccc' }}>+91 9463182321</Text>
+                <Text style={{ color: '#ccc' }}>+91 9896668880</Text>
               </Flex>
 
               <Flex gap={10}>
