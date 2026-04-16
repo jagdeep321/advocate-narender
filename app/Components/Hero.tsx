@@ -29,6 +29,15 @@ export default function Hero() {
         }}
       />
 
+      <div style={{ display: "none" }}>
+  Best Advocate in Ratia,
+  Best Lawyer in Fatehabad,
+  Criminal Lawyer Ratia,
+  Civil Lawyer Fatehabad,
+  Matrimonial Lawyer Haryana,
+  Revenue Advocate Ratia
+</div>
+
       {/* 🔥 Content */}
       <Flex
         direction="column"
