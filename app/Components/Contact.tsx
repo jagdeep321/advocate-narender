@@ -142,7 +142,7 @@ const openFacebook = () => {
 <Flex align="center" gap={12} mb={10}>
   <IconMail size={20} color="#c9a14a" />
   <Text style={{ color: '#ffffff', fontSize: 16 }}>
-    advocate@email.com
+   narenderkmalik.adv@gmail.com
   </Text>
 </Flex>
 
