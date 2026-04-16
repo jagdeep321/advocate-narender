@@ -14,10 +14,13 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata: Metadata = {
+export const metadata = {
   title: "Advocate Narender Malik",
-  description: "Law Officer",
-    
+  description: "Best Advocate in Ratia & Fatehabad - Criminal, Civil, Matrimonial & Revenue Lawyer",
+  
+  verification: {
+    google: "hA6iMA7WerJS_ZCKh3lRhgX0nxHVAzp88qgIb-ShQZ8",
+  },
 };
 
 export default function RootLayout({
