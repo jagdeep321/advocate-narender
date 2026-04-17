@@ -21,6 +21,18 @@ export const metadata = {
   verification: {
     google: "hA6iMA7WerJS_ZCKh3lRhgX0nxHVAzp88qgIb-ShQZ8",
   },
+  icons: {
+    icon: [
+      {
+        rel: "icon",
+        url: "/scren.png",
+      },
+      {
+        rel: "apple-touch-icon",
+        url: "/scren.png",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
