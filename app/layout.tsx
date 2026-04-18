@@ -46,6 +46,24 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "LegalService",
+              "name": "Advocate Narender Malik",
+              "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Ratia",
+                "addressRegion": "Haryana",
+                "addressCountry": "India"
+              },
+              "areaServed": ["Ratia", "Fatehabad"],
+              "telephone": "+91 98966 68880"
+            }),
+          }}
+        />
          <MantineProvider>
 
         {children}
